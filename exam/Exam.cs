@@ -20,5 +20,8 @@ namespace Exam_C_.exam
         protected abstract DateTime GetTime();
         public abstract void TakeExam();
         public abstract void EditExam();
+        protected abstract void AddQuestion();
+        protected abstract void EditQuestion();
+        protected abstract void DeleteQuestion();
     }
 }

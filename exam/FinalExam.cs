@@ -198,7 +198,7 @@ namespace Exam_C_.exam
             }
         }
 
-        private void AddQuestion()
+        protected override void AddQuestion()
         {
             Console.Clear();
             Console.WriteLine("Adding a new question:");
@@ -230,7 +230,7 @@ namespace Exam_C_.exam
             Console.Clear();
         }
 
-        private void EditQuestion()
+        protected override void EditQuestion()
         {
             Console.Clear();
             Console.WriteLine("Editing an existing question:");
@@ -260,7 +260,7 @@ namespace Exam_C_.exam
             questionToEdit.EditQuestion();
         }
 
-        private void DeleteQuestion()
+        protected override void DeleteQuestion()
         {
             Console.Clear();
             Console.WriteLine("Deleting an existing question:");

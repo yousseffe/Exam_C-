@@ -10,7 +10,6 @@ namespace Exam_C_.question
         public int Mark { get; set; }
         public int RightAnswer { get; set; }
         public Answer[] Answers { get; set; }
-        public int MyAnswer { get; set; }
         protected abstract string GetBody();
         protected abstract int GetMark();
         protected abstract void AddChoices();
